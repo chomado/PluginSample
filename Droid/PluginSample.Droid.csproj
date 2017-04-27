@@ -87,6 +87,10 @@
       <Project>{AAECBCC1-01A4-4064-B8BE-6A6C562BE73D}</Project>
       <Name>PluginSample</Name>
     </ProjectReference>
+    <ProjectReference Include="..\AssemblyTimeStamp.Droid\AssemblyTimeStamp.Droid.csproj">
+      <Project>{1E7A0F7A-89AA-401F-A6E8-DE19B36B48AC}</Project>
+      <Name>AssemblyTimeStamp.Droid</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
