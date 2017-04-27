@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginSample.iOS", "iOS\Plu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginSample.Droid", "Droid\PluginSample.Droid.csproj", "{16437B43-1EE5-44FE-8831-923247B13C49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemblyTimeStamp.PCL", "AssemblyTimeStamp.PCL\AssemblyTimeStamp.PCL.csproj", "{E165DDE9-C231-43EE-8418-B4ADA678C44C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemblyTimeStamp", "AssemblyTimeStamp.PCL\AssemblyTimeStamp.csproj", "{E165DDE9-C231-43EE-8418-B4ADA678C44C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
