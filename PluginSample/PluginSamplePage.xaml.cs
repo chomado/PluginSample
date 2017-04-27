@@ -1,4 +1,5 @@
-﻿using Xamarin.Forms;
+﻿using System;
+using Xamarin.Forms;
 
 namespace PluginSample
 {
@@ -7,6 +8,11 @@ namespace PluginSample
 		public PluginSamplePage()
 		{
 			InitializeComponent();
+		}
+
+		private void OnClicked(object sender, EventArgs e)
+		{
+			this.label.Text = AssemblyTimeStamp.TimeStampUtil.GetAssemblyTimeStamp().ToString();
 		}
 	}
 }
